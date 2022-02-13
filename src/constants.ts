@@ -74,6 +74,6 @@ export const functionList = [
   },
 ];
 
-export const functionMapping = new Map(
+export const functionMap = new Map(
   functionList.map(({ item }) => [item.name, item.content])
 );

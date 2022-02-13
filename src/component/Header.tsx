@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { useDispatch } from "react-redux";
 import { colorMap } from "../color";
-import { functionMapping } from "../constants";
+import { functionMap } from "../constants";
 import { setResult } from "../redux/slice";
 
 interface HeaderInterface {
@@ -14,7 +14,7 @@ export default function Header({ data, func }: HeaderInterface) {
 
   const handleClick = () => {
     if (data && func) {
-      const targetFunction: any = functionMapping.get(func);
+      const targetFunction: any = functionMap.get(func);
       dispatch(setResult({ result: targetFunction(data) }));
       return;
     }
