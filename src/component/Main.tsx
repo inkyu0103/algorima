@@ -43,7 +43,7 @@ const MainContainer = styled.main`
 `;
 
 const ResultBlock = styled.div<{ isMessageNull: boolean }>`
-  width: 100px;
+  width: 150px;
   height: 200px;
   display: flex;
   justify-content: center;

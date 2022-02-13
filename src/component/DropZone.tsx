@@ -77,7 +77,7 @@ const DropZoneContainer = styled.div<{
   isRightZone: boolean;
   isMessageNull: boolean;
 }>`
-  width: 100px;
+  width: 150px;
   height: 200px;
   position: relative;
   display: flex;
